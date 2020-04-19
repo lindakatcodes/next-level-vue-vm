@@ -71,6 +71,42 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 3377754,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Walk Time!",
+      "description": "Go for a walk",
+      "location": "Anywhere, USA",
+      "date": "2020-04-21T02:31:00.000Z",
+      "time": "14:00",
+      "attendees": []
+    },
+    {
+      "id": 8020923,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Teach yoself",
+      "description": "",
+      "location": "",
+      "date": "2020-04-04T02:39:00.000Z",
+      "time": "6:00",
+      "attendees": []
     }
   ]
 }
