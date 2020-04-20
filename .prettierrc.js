@@ -1,7 +1,7 @@
 module.exports = {
   singleQuote: true,
   jsxBracketSameLine: true,
-  htmlWhitespaceSensitivity: 'ignore',
+  htmlWhitespaceSensitivity: 'strict',
   vueIndentScriptAndStyle: true,
   endOfLine: 'crlf'
 };
