@@ -73,12 +73,12 @@
           :input-class="{ error: $v.event.date.$error }"
           @opened="$v.event.date.$touch()"
         />
-        <template v-if="$v.event.date.$error">
-          <p v-if="!$v.event.date.required" class="errorMessage"
-            >date is required.</p
-          >
-        </template>
       </div>
+      <template v-if="$v.event.date.$error">
+        <p v-if="!$v.event.date.required" class="errorMessage"
+          >Date is required.</p
+        >
+      </template>
 
       <BaseSelect
         label="Select a time"
@@ -139,7 +139,7 @@
     },
     methods: {
       createEvent() {
-        this.$v.touch();
+        this.$v.$touch();
         if (!this.$v.$invalid) {
           NProgress.start();
           this.$store

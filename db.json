@@ -303,6 +303,46 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 3715804,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": {
+        "isTrusted": true
+      },
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "puppy promenade",
+      "description": "dfed",
+      "location": "here",
+      "date": "2020-04-02T02:42:00.000Z",
+      "time": {
+        "isTrusted": true
+      },
+      "attendees": []
+    },
+    {
+      "id": 1462854,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "hello",
+      "description": "hello",
+      "location": "ged",
+      "date": "2020-04-03T02:59:00.000Z",
+      "time": "13:00",
+      "attendees": []
     }
   ]
 }
